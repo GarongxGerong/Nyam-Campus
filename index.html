@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYAM CAMPUS | Food & Drink</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo"> NYAM <span>CAMPUS</span></a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#keranjang">Keranjang 🛒</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="tagline">FOOD & DRINK FOR EVERYONE</span>
+            <h1>Lapar? Yuk, <span>Nyam!</span></h1>
+            <p>Makanan enak, minuman segar, harga ramah kantong mahasiswa.</p>
+            <a href="#menu" class="btn">Pesan Sekarang</a>
+        </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+        <div class="section-title">
+            <span>OUR MENU</span>
+            <h2>Menu Favorit Kami</h2>
+            <p>Pilih makanan dan minuman favoritmu!</p>
+        </div>
+
+        <div class="products">
+
+            <div class="product">
+                <img src="Ayamgeprek.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Ayam Geprek</h3>
+                    <div class="product-bottom">
+                        <strong>Rp15.000</strong>
+                        <button onclick="tambah('Ayam geprek',15000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="ayampenyet.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Ayam Penyet</h3>
+                    <div class="product-bottom">
+                        <strong>Rp20.000</strong>
+                        <button onclick="tambah('Ayam Penyet',20000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <img src="Nasigoreng.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Nasi Goreng</h3>
+                    <div class="product-bottom">
+                        <strong>Rp15.000</strong>
+                        <button onclick="tambah('Nasi Goreng',15000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="miegoreng.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Mie Goreng</h3>
+                    <div class="product-bottom">
+                        <strong>Rp12.000</strong>
+                        <button onclick="tambah('Mie Goreng',12000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="mierebus.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Mie Rebus</h3>
+                    <div class="product-bottom">
+                        <strong>Rp12.000</strong>
+                        <button onclick="tambah('Mie Rebus',12000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <img src="mieayam.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Mie Ayam</h3>
+                    <div class="product-bottom">
+                        <strong>Rp15.000</strong>
+                        <button onclick="tambah('Mie ayam',15000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="bakso.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Bakso</h3>
+                    <div class="product-bottom">
+                        <strong>Rp17.000</strong>
+                        <button onclick="tambah('Bakso',17000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="cilokbandung.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Cilok Bandung</h3>
+                    <div class="product-bottom">
+                        <strong>Rp12.000</strong>
+                        <button onclick="tambah('Cilok Bandung',12000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="cirengayamsuwir.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Cireng Ayam Suwir</h3>
+                    <div class="product-bottom">
+                        <strong>Rp15.000</strong>
+                        <button onclick="tambah('cireng Ayam suwir',15.000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="dimsumgoreng.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Dimsum Goreng</h3>
+                    <div class="product-bottom">
+                        <strong>Rp17.000</strong>
+                        <button onclick="tambah('Dimsum Goreng',17000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="dimsummentai.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Dimsum Mentai</h3>
+                    <div class="product-bottom">
+                        <strong>Rp20.000</strong>
+                        <button onclick="tambah('Dimsum mentai',20000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="dimsumori.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Dimsum Ori</h3>
+                    <div class="product-bottom">
+                        <strong>Rp17.000</strong>
+                        <button onclick="tambah('Cilok Bandung',17000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="donat.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Donat</h3>
+                    <div class="product-bottom">
+                        <strong>Rp23.000</strong>
+                        <button onclick="tambah('Donat',23000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="mixplate.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Mix Plate</h3>
+                    <div class="product-bottom">
+                        <strong>Rp17.000</strong>
+                        <button onclick="tambah('Mix Plate',17000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="udangrambutan.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Udang Rambutan</h3>
+                    <div class="product-bottom">
+                        <strong>Rp17.000</strong>
+                        <button onclick="tambah('Udang rambutan',17000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="kopi.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Kopi</h3>
+                    <div class="product-bottom">
+                        <strong>Rp15.000</strong>
+                        <button onclick="tambah('Kopi',15000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="lemontea.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Lemon Tea</h3>
+                    <div class="product-bottom">
+                        <strong>Rp8.000</strong>
+                        <button onclick="tambah('Lemon Tea',8000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="tehpoci.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Teh Poci</h3>
+                    <div class="product-bottom">
+                        <strong>Rp6.000</strong>
+                        <button onclick="tambah('Teh Poci',6000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="tehhijau.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Teh Hijau</h3>
+                    <div class="product-bottom">
+                        <strong>Rp6.000</strong>
+                        <button onclick="tambah('Teh hijau',6000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="milo.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Milo</h3>
+                    <div class="product-bottom">
+                        <strong>Rp10.000</strong>
+                        <button onclick="tambah('Milo',10000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="popice.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Pop Ice</h3>
+                    <div class="product-bottom">
+                        <strong>Rp7.000</strong>
+                        <button onclick="tambah('Pop Ice',7000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="nutrisari.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Nutrisari</h3>
+                    <div class="product-bottom">
+                        <strong>Rp7.000</strong>
+                        <button onclick="tambah('nutrisari',7000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="lemineral.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Le Mineral</h3>
+                    <div class="product-bottom">
+                        <strong>Rp6.000</strong>
+                        <button onclick="tambah('Le Mineral',6000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="eskosong.jpg.jpeg">
+                <div class="product-info">
+                    <h3>Es kosong</h3>
+                    <div class="product-bottom">
+                        <strong>Rp4.000</strong>
+                        <button onclick="tambah('Es kosong',4000)">+ Keranjang</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="cart-section" id="keranjang">
+        <div class="cart-box">
+            <h2>🛒 Keranjang Belanja</h2>
+            <div id="daftar-keranjang">
+                <p class="empty">Keranjang masih kosong.</p>
+            </div>
+
+            <div class="total">
+                <span>Total Belanja</span>
+                <strong id="total">Rp0</strong>
+            </div>
+
+            <h3>Data Pemesan</h3>
+            <input type="text" id="nama" placeholder="Nama lengkap" required>
+            <input type="text" id="alamat" placeholder="Alamat / Lokasi pengantaran" required>
+            <textarea id="catatan" placeholder="Catatan pesanan (opsional)"></textarea>
+
+            <button class="checkout-btn" onclick="checkout()">
+                Checkout via WhatsApp
+            </button>
+        </div>
+    </section>
+
+    <footer>
+        <h2>🍔 NYAM CAMPUS</h2>
+        <p>Enak, Murah, Bikin Nagih!</p>
+        <p>© 2026 NYAM CAMPUS. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
